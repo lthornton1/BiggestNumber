@@ -7,18 +7,20 @@ int main()
 {
   int a = 0;
   int b = 0;
-
+  int big = 0;
   cout<<"Please enter a whole number:\n";
   cin>> a;
   cout<<"Please enter another whole number:\n";
   cin>> b;
   cout<<"Of those two numbers, the biggest is: ";
   if (a<b){
-    cout<< b << endl;
+    big = b;
   }
   else {
-    cout<< a<< endl;
+    big = a;
   }
+
+  cout << big << endl;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
